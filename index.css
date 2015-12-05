@@ -1,0 +1,26 @@
+body {
+  background-color: gray;
+}
+
+#display {
+  background-color: red;
+  margin: auto;
+  width: 50%;
+
+}
+
+
+.allButtons{
+  float: left;
+  text-align:center;
+  font-size: 30px;
+  width: auto;
+  padding: 5px;
+
+
+}
+
+.buttons{
+   background-color: yellow
+
+}

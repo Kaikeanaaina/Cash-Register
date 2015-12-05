@@ -1,11 +1,11 @@
+
 var total=0;
 var memory=0;
 
 //clear
 //will clear the display
 
-var display = document.getElementById('display');
-display.innerHTML;
+
 
 
 var clear = function(){
@@ -44,4 +44,3 @@ var setDisplay=function(amount){
   momery = amount;
   return momery;
 };
-

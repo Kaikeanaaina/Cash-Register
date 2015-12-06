@@ -1,15 +1,16 @@
+// don't forget to use window.onload or put scripts on the body of your body
+var total;
+var memory=[];
+var balance=0;
 
-var total=0;
-var memory=0;
 
 //clear
 //will clear the display
 
 
 
-
 var clear = function(){
-  momery = 0;
+  memory = 0;
   return  momery;
 };
 //getBalance

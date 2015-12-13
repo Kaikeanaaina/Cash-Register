@@ -1,7 +1,9 @@
 // don't forget to use window.onload or put scripts on the body of your body
-var total;
-var memory=[];
+var sCreen=[];
+var memory=0;  // this is the display
+var memory2=0;
 var balance=0;
+var operation_counter = false;
 
 
 //clear
@@ -11,13 +13,13 @@ var balance=0;
 
 var clear = function(){
   memory = 0;
-  return  momery;
+  return  memory;
 };
 //getBalance
 //will display the current balance
 
 var getBalance = function(){
-  return total;
+  return balance;
 };
 
 //depositCash
@@ -25,9 +27,9 @@ var getBalance = function(){
 //in the (display) to the cash register,
 //then clears the display
 var depositCash=function(){
-  total+=momery;
-  momery=0;
-  return momery;
+  balance+=memory;
+  memory=0;
+  return memory;
 };
 
 
@@ -36,12 +38,12 @@ var depositCash=function(){
 //in the (display) to the cash register,
 //then clears the display
 var withdrawCase =function(){
-      total-=momery;
-      momery=0;
-      return momery;
+      total-=memory;
+      memory=0;
+      return memory;
     };
 
 var setDisplay=function(amount){
-  momery = amount;
-  return momery;
+  memory = amount;
+  return memory;
 };
